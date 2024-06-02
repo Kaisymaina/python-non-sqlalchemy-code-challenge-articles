@@ -47,8 +47,8 @@ class Author:
 
 class Magazine:
     def __init__(self, name, category):
-        self.name = name  # Mutable string
-        self.category = category  # Mutable string
+        self.name = name  
+        self.category = category 
         self._articles = []
 
     def articles(self):
